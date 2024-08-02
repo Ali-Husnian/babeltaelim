@@ -33,7 +33,7 @@ const NavBar = () => {
       {/* TopNav */}
       <div className="flex flex-col md:flex-row lg:space-x-56 lg:justify-evenly lg:px-4 md:justify-between md:px-6 items-center h-28 bg-white shadow-md">
         <div className="flex items-center my-2 md:my-0">
-          <img src="logo.png" alt="Logo" className="h-12" />
+          <img src="Final-Logo.png" alt="Logo" className="h-12" />
         </div>
         <div className="flex items-center space-x-4">
           <Link
