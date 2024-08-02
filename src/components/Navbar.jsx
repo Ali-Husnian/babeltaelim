@@ -80,15 +80,15 @@ const NavBar = () => {
               onMouseLeave={() => handleMouseLeave("professionals")}
               onClick={() => handleClick("professionals")}
             >
-              <a href="#professionals" className="font-bold block px-4 py-2">
+              <span className="font-bold block px-4 py-2">
                 For Professionals
-              </a>
+              </span>
               {openDropdown === "professionals" && (
                 <ul className="absolute left-0 w-48 mt-0 py-2 bg-white font-bold shadow-md z-20">
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#professional1"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       Professional 1
                     </a>
@@ -96,7 +96,7 @@ const NavBar = () => {
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#professional2"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       Professional 2
                     </a>
@@ -104,7 +104,7 @@ const NavBar = () => {
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#professional3"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       Professional 3
                     </a>
@@ -119,15 +119,13 @@ const NavBar = () => {
               onMouseLeave={() => handleMouseLeave("companies")}
               onClick={() => handleClick("companies")}
             >
-              <a href="#companies" className="font-bold block px-4 py-2">
-                For Companies
-              </a>
+              <span className="font-bold block px-4 py-2">For Companies</span>
               {openDropdown === "companies" && (
                 <ul className="absolute left-0 w-48 mt-0 py-2 bg-white font-bold shadow-md z-20">
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#company1"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       For Companies 1
                     </a>
@@ -135,7 +133,7 @@ const NavBar = () => {
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#company2"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       For Companies 2
                     </a>
@@ -143,7 +141,7 @@ const NavBar = () => {
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#company3"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       For Companies 3
                     </a>
@@ -158,15 +156,14 @@ const NavBar = () => {
               onMouseLeave={() => handleMouseLeave("about")}
               onClick={() => handleClick("about")}
             >
-              <a href="#about" className="font-bold block px-4 py-2">
-                About
-              </a>
+              <span className="font-bold block px-4 py-2">About</span>
+
               {openDropdown === "about" && (
                 <ul className="absolute left-0 w-48 mt-0 py-2 bg-white font-bold shadow-md z-20">
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#about1"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       About 1
                     </a>
@@ -174,7 +171,7 @@ const NavBar = () => {
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#about2"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       About 2
                     </a>
@@ -182,7 +179,7 @@ const NavBar = () => {
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#about3"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       About 3
                     </a>
@@ -197,15 +194,14 @@ const NavBar = () => {
               onMouseLeave={() => handleMouseLeave("institutes")}
               onClick={() => handleClick("institutes")}
             >
-              <a href="#institutes" className="font-bold block px-4 py-2">
-                For Institutes
-              </a>
+              <span className="font-bold block px-4 py-2">For Institutes</span>
+
               {openDropdown === "institutes" && (
                 <ul className="absolute left-0 w-48 mt-0 py-2 bg-white font-bold shadow-md z-20">
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#institute1"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       For Institutes 1
                     </a>
@@ -213,7 +209,7 @@ const NavBar = () => {
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#institute2"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       For Institutes 2
                     </a>
@@ -221,7 +217,7 @@ const NavBar = () => {
                   <li className="hover:bg-blue-500 transition duration-300 ease-in-out">
                     <a
                       href="#institute3"
-                      className="block text-black hover:text-white px-4 py-2"
+                      className="block text-black hover:text-white px-4 py-2 visited:text-blue-500"
                     >
                       For Institutes 3
                     </a>
