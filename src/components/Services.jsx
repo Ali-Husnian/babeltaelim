@@ -29,7 +29,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="container w-950px mx-auto py-20">
+    <div className="container w-950px mx-auto pt-20 pb-10">
       <div className="grid grid-cols-1 md:grid-cols-3">
         {services.map((service, index) => (
           <div key={index} className="text-left md:text-left ml-4">

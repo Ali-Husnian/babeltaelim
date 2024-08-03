@@ -5,7 +5,7 @@ const Certifications = () => {
         <span className="text-white text-lg  pl-9  md:pl-250px font-medium">
           Certifications:
         </span>
-        <div className="container mx-auto mt-5 w-950px grid grid-cols-7 space-y-3 gap-2 lg:grid-cols-7 md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-2  sm:items-center items-center justify-center space-x-8 ">
+        <div className="container mx-auto mt-5 w-950px grid grid-cols-8 space-y-3 gap-2 lg:grid-cols-8 md:grid-cols-8 sm:grid-cols-8 xs:grid-cols-2  sm:items-center items-center justify-center space-x-8 ">
           <img
             src="facebook-logo.png"
             alt="Facebook"
@@ -39,6 +39,11 @@ const Certifications = () => {
           <img
             src="snapchat-logo.png"
             alt="Snapchat"
+            className="h-10 filter col-span-1"
+          />
+          <img
+            src="Final-Logo.png"
+            alt="goacad"
             className="h-10 filter col-span-1"
           />
         </div>
