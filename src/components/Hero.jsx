@@ -7,15 +7,15 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-center h-full text-white p-4">
         {/* Left Section */}
-        <div className="md:w-1/3 p-4 text-center md:text-left">
+        <div className="md:w-1/3 p-4 space-y-24 text-center md:text-left">
           <h1 className="text-2xl md:text-4xl font-bold mb-4">
             Digital Marketing Training Programs for Professionals & Corporates
           </h1>
           <div className="flex items-center flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 ">
-            <button className="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-bold uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
+            <button className="btn overflow-hidden relative w-64 bg-blue-500 text-white py-4 px-4 rounded-xl font-medium uppercase -- before:block before:absolute before:h-full before:w-1/2 before:rounded-full before:bg-orange-400 before:top-0 before:left-1/4 before:transition-transform before:opacity-0 before:hover:opacity-100 hover:text-orange-200 hover:before:animate-ping transition-all duration-300">
               <span className="relative">Our Courses</span>
             </button>
-            <button className="btn-default overflow-hidden relative w-64 text-gray-900 py-4 px-4 rounded-xl font-bold uppercase transition-all duration-100 -- hover:shadow-md border border-stone-100 hover:bg-gradient-to-t hover:from-stone-100 before:to-stone-50 hover:-translate-y-[3px]">
+            <button className="btn-default overflow-hidden relative w-64 text-gray-900 py-4 px-4 rounded-xl font-medium uppercase transition-all duration-100 -- hover:shadow-md border border-stone-100 hover:bg-gradient-to-t hover:from-stone-100 before:to-stone-50 hover:-translate-y-[3px]">
               <span className="relative">Corporate Solutions</span>
             </button>
           </div>

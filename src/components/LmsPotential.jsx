@@ -7,7 +7,7 @@ const LmsPotential = () => {
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="bg-blue-500 text-white md:rounded-s-md space-y-28 p-8">
+        <div className="bg-blue-500 text-white md:rounded-s-md space-y-16 md:space-y-28 p-8">
           <h2 className="text-4xl font-medium mb-4">
             We help businesses to digitally transform their processes & amplify
             growth.
@@ -20,7 +20,7 @@ const LmsPotential = () => {
           <img
             src="lms.jpg"
             alt="Two people working in an office"
-            className="md:rounded-e-md w-600px h-400px"
+            className="md:rounded-e-md md:w-600px md:h-400px"
           />
         </div>
       </div>
