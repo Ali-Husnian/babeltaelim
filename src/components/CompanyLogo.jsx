@@ -1,3 +1,5 @@
+import LinkButton from "../utils/ui/LinkButton";
+
 // List of logos (you should replace these with the actual paths to your images)
 const logos = [
   "companies/academy.jpeg",
@@ -39,6 +41,13 @@ const CompanyLogo = () => {
           </div>
         ))}
       </div>
+      <center className="mt-10">
+        <LinkButton
+          text="View Full list"
+          link="#"
+          className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-md px-5 py-2.5 text-center me-2 mb-2 uppercase"
+        />
+      </center>
     </div>
   );
 };

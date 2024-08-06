@@ -7,6 +7,8 @@ import SpecializedCourses from "../components/SpecializedCourses";
 import LmsPotential from "../components/LmsPotential";
 import GroupMasterClass from "../components/GroupMasterClass";
 import CompanyLogo from "../components/CompanyLogo";
+import FutureOfDigital from "../components/FutureOfDigital";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -20,7 +22,8 @@ const Home = () => {
       <LmsPotential />
       <GroupMasterClass />
       <CompanyLogo />
-
+      <FutureOfDigital />
+      <Footer />
       {/*
        */}
     </div>
