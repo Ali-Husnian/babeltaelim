@@ -33,7 +33,9 @@ const NavBar = () => {
       {/* TopNav */}
       <div className="flex flex-col md:flex-row lg:space-x-56 lg:justify-evenly lg:px-4 md:justify-between md:px-6 items-center h-28 bg-white shadow-md">
         <div className="flex items-center my-2 md:my-0">
-          <img src="Final-Logo.png" alt="Logo" className="h-12" />
+          <Link to="/">
+            <img src="Final-Logo.png" alt="Logo" className="h-12" />
+          </Link>
         </div>
         <div className="flex items-center space-x-4">
           <Link
@@ -227,9 +229,9 @@ const NavBar = () => {
             </li>
 
             <li className="transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white">
-              <a href="#contact" className="font-bold block px-4 py-2">
+              <Link to="/contact" className="font-bold block px-4 py-2">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
