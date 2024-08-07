@@ -70,7 +70,7 @@ const NavBar = () => {
       {/* Topnav end */}
 
       <div
-        className={`bg-lighter-gray ${
+        className={`bg-lighter-gray absolute top-28 left-0 w-full z-50 ${
           isMenuOpen ? "block" : "hidden"
         } md:block`}
       >
@@ -79,7 +79,7 @@ const NavBar = () => {
             <li
               className="relative transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white"
               onMouseEnter={() => handleMouseEnter("professionals")}
-              onMouseLeave={() => handleMouseLeave("professionals")}
+              onMouseLeave={handleMouseLeave}
               onClick={() => handleClick("professionals")}
             >
               <span className="font-bold block px-4 py-2">
